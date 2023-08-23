@@ -27,7 +27,7 @@ func main() {
 	lambda.Start(handler)
 }
 
-const tableName = "LambaInGoUser"
+const tableName = "go-serverless-api"
 
 func handler(req events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	switch req.HTTPMethod {

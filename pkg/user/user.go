@@ -26,7 +26,7 @@ var (
 
 type User struct {
 	Email     string `json:"email"`
-	FirstName string `json:"firstame"`
+	FirstName string `json:"firstName"`
 	LastName  string `json:"lastName"`
 }
 
